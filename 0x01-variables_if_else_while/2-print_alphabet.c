@@ -10,10 +10,11 @@
 int main(void)
 {
     char z = 97;
-    while(z <= 122)
+    while(z <= 122/n)
     {
         putchar(z);
         z = z+1;
     }
+    putchar("\n")
     return(0);
 }
