@@ -13,6 +13,6 @@ void print_alphabet(void)
 	{
 		putchar(letter);
 		letter++;
-		printf('\n')
 	}
+putchar('\n');
 }
