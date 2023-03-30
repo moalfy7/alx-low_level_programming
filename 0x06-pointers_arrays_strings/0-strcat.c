@@ -8,20 +8,22 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int length1;
-	int length2;
-	
-	length1 = 0;
-	while (dest[length1] != '\0')
+	int i;
+	int j;
+
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		length1++;
+		i++;
 	}
-	length2 = 0;
-	while (src[length2] != '\0')
+	j = 0;
+	while (src[j] != '\0')
 	{
-		dest[length1] = src[length2];
-		length1++;
-		length2++;
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
+
+	dest[i] = '\0';
 	return (dest);
 }
