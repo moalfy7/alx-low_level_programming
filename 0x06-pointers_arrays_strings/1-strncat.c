@@ -8,7 +8,7 @@
  *
  * Return: dest
  */
-char* _strncat(char* dest, char* src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
     int i, len1 = 0, len2 = 0;
 
